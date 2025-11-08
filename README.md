@@ -67,10 +67,3 @@ COllaborated by @Asmini, @Femi,@Agnes
 📍NCSSoftSolutions (P) Ltd.,
 
 
-
-
-
-
-
-Would you like me to design a **GitHub banner** for your project? It will make your repo look next-level 👑🔥
-```
