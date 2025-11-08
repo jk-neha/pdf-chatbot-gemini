@@ -68,12 +68,7 @@ COllaborated by @Asmini, @Femi,@Agnes
 
 
 
-> “Turning PDFs into conversations.” ✨
 
-## 🌟 Show Your Support
-
-If you like this work, please ⭐ this repository 💛
-Feedback is always welcome!
 
 
 
