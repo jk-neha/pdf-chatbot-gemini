@@ -2,13 +2,12 @@ import streamlit as st
 import google.generativeai as genai
 import PyPDF2
 
-# ✅ CONFIGURE API KEY
-genai.configure(api_key="AIzaSyCrIxwxz2W8DTMSHG201W4HEthceMpmDT0")  # Replace with your actual key
 
-# ✅ LOAD THE RIGHT MODEL (Gemini-Pro)
+genai.configure(api_key="ENTER YOUT ACTUAL KEY")  # Replace with your actual key
+
 model = genai.GenerativeModel("gemini-2.0-flash-exp")
 
-# ✅ EXTRACT PDF TEXT
+
 def extract_pdf_text(uploaded_file):
     text = ""
     reader = PyPDF2.PdfReader(uploaded_file)
@@ -18,7 +17,7 @@ def extract_pdf_text(uploaded_file):
             text += page_text + "\n"
     return text
 
-# ✅ STREAMLIT UI
+# UI
 st.title("📄 Chat with your PDF (Gemini-powered)")
 
 uploaded_pdf = st.file_uploader("Upload a PDF file", type=["pdf"])
